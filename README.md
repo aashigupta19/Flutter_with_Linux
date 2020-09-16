@@ -1,16 +1,24 @@
-# LinuxAPI
+## LinuxAPI
 
 A new Flutter project.
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+This project attempts to use the database services provided by the Google Cloud Platform, i.e., Firestore.
 
-A few resources to get you started if this is your first Flutter project:
+## About the Project
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+This Flutter application is integrated with 2 technologies: RedHat(RHEL v8) and Firestore.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- The aim of the project is that when a user gives an input of any linux command to be executed, flutter is connected with the redhat server and command is executed on that server
+- The output is stored on the Firestore Database connected to the application.
+- Output of the command executed is shown on the app screen.
+- Output of the entire database is shown on the console for now.
+
+**This project is still in progress** as I'm still working on the retrieval of data from firestore and for it to be displayed on the app screen, instead of console
+
+## Task Description
+For detailed explanation of the project, I've attached one "Task Description.docx" file for reference.
+
+## Demo
+![Animated gif demo](about/demo_gif.gif).
